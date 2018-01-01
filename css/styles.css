@@ -16,16 +16,6 @@ html, body {
     clear: both;
 }
 
-/*.row {
-	width: 100%;
-	position: relative;
-	height: 300px;
-}
-
-.row img {
-	width: 33%;
-}*/
-
 .block {
 	float: left;
     width: 25%;
@@ -33,6 +23,6 @@ html, body {
 }
 
 .block img {
-	height: 260px;
-	width: 33%;
+	width: 100%;
+	height: auto;
 }
