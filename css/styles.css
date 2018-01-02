@@ -6,9 +6,13 @@ html, body {
 	height: 100%;
 }
 
+body {
+	position: relative;
+}
+
 .wrapper {
 	margin: 10px 5px 10px 5px;
-	height: auto;
+	height: 100%;
 	width: 100%;
 	content: "";
     display: table;
@@ -28,4 +32,19 @@ html, body {
 
 .block img:hover {
 	cursor: zoom-in;
+}
+
+.modal {
+	height: 600px;
+	width: 70%;
+	display: none;
+	position: fixed;
+	background-color: aqua;
+	top: 25px;
+	left: 100px;
+}
+
+.show-modal {
+	display: block;
+	cursor: zoom-out;
 }
