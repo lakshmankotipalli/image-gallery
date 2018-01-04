@@ -36,15 +36,20 @@ body {
 
 .modal {
 	height: 600px;
-	width: 70%;
+	width: 80%;
 	display: none;
 	position: fixed;
-	background-color: aqua;
+	background-color: #fff;
 	top: 25px;
 	left: 100px;
+	border-radius: 4px;
 }
 
 .show-modal {
 	display: block;
 	cursor: zoom-out;
+}
+
+.half-opaq {
+	opacity: 0.5;
 }
