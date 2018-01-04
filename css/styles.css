@@ -50,6 +50,16 @@ body {
 	cursor: zoom-out;
 }
 
+
+#image-view {
+	width: 70%;
+	margin: 100px 0 0 100px;
+}
+
 .half-opaq {
 	opacity: 0.5;
+}
+
+.no-pointer-events {
+	pointer-events: none;
 }

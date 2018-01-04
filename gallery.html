@@ -7,29 +7,32 @@
 <body>
 	<section class="wrapper" id="wrapper">
 		<div class="block">
-			<img src="images/aj-garcia-237246.jpg" onclick="previewImg()">
-			<img src="images/anthony-tran-481160.jpg" onclick="previewImg()">
-			<img src="images/blake-connally-373084.jpg" onclick="previewImg()">
-			<img src="images/nikita-kachanovsky-445394.jpg" onclick="previewImg()">
+			<img src="images/aj-garcia-237246.jpg" onclick="previewImg(src)">
+			<img src="images/anthony-tran-481160.jpg" onclick="previewImg(src)">
+			<img src="images/blake-connally-373084.jpg" onclick="previewImg(src)">
+			<img src="images/nikita-kachanovsky-445394.jpg" onclick="previewImg(src)">
 		</div>
 		<div class="block">
-			<img src="images/domenico-loia-272251.jpg" onclick="previewImg()">
-			<img src="images/flo-karr-182394.jpg" onclick="previewImg()">
-			<img src="images/georgia-de-lotz-455983.jpg" onclick="previewImg()">
+			<img src="images/domenico-loia-272251.jpg" onclick="previewImg(src)">
+			<img src="images/flo-karr-182394.jpg" onclick="previewImg(src)">
+			<img src="images/georgia-de-lotz-455983.jpg" onclick="previewImg(src)">
 		</div>
 		<div class="block">
-			<img src="images/glenn-carstens-peters-203007.jpg" onclick="previewImg()">
-			<img src="images/james-donaldson-365418.jpg" onclick="previewImg()">
-			<img src="images/jeremy-bishop-408926.jpg" onclick="previewImg()">
+			<img src="images/glenn-carstens-peters-203007.jpg" onclick="previewImg(src)">
+			<img src="images/james-donaldson-365418.jpg" onclick="previewImg(src)">
+			<img src="images/jeremy-bishop-408926.jpg" onclick="previewImg(src)">
 		</div>
 		<div class="block">
-			<img src="images/luca-bravo-217276.jpg" onclick="previewImg()">
-			<img src="images/samuel-zeller-158996.jpg" onclick="previewImg()">
-			<img src="images/tyler-mullins-113590.jpg" onclick="previewImg()">
+			<img src="images/luca-bravo-217276.jpg" onclick="previewImg(src)">
+			<img src="images/samuel-zeller-158996.jpg" onclick="previewImg(src)">
+			<img src="images/tyler-mullins-113590.jpg" onclick="previewImg(src)">
 		</div>
 	</section>
 	<section class="modal" id="modal">
 		<span onclick="closeModal()">Close</span>
+		<div>
+			<img id="image-view" src="">
+		</div>
 	</section>
 
 	<script type="text/javascript" src="scripts/app.js"></script>
