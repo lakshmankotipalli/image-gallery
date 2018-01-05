@@ -50,6 +50,11 @@ body {
 	cursor: zoom-out;
 }
 
+.modal #image-view {
+	display: block;
+	margin: 20px auto;
+	width: 18em;
+}
 
 #image-view {
 	width: 70%;
